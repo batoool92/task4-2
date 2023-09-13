@@ -1,0 +1,107 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+
+ 
+ #nav-section-id {
+    
+    background: linear-gradient(rgba(78, 60, 158, 0.9), rgba(70, 65, 136, 0.9)), url('../images/education.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 600px;
+   
+}
+/* #NavbarId.top-0{
+    position: fixed;
+    top: 0;  
+} */
+
+#id-educationForTomorrow {
+    background: linear-gradient(rgba(78, 60, 158, 0.9), rgba(70, 65, 136, 0.9)), url('../images/education-program3.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+}
+.card-bg {
+    background-color: rgb(231, 228, 228);
+}
+
+.grey-square {
+    background-color: grey;
+}
+
+.ml-10 {
+    margin-left: 10rem;
+}
+.ml-6 {
+margin-left: 8rem!important;
+}
+.mb-6 {
+    margin-bottom: 10rem;
+}
+
+.bottom-7 {
+    bottom: -7rem!important;
+}
+.top-3 {
+    top: rem!important;
+}
+.bottom-00 {
+    bottom: -2rem!important;
+}
+
+.z-999 {
+    z-index: 999!important;
+}
+.ul{
+    width: 100%;
+}
+
+.testimonial-picture {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid rgb(102, 102, 50);
+}
+
+.fs-6 {
+    font-size: 1rem;
+}
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");}
+
+    .accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 920px) {
+    html{
+        font-size: 10px;
+    }
+    #teacherId {
+        position: relative;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 400px) {
+html {
+    font-size: 7px;
+}
+#video_id {
+    position: static;
+}
+#square_id {
+    visibility: hidden;
+}
+}
+
